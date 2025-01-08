@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+     <!-- especifica a codificação de caracteres como utf-8 -->
+    <meta charset="UTF-8">
+    <!-- garante que o layout seja responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- define o título da página exibido na aba do navegador -->
+    <title>Trocador de Cores || Simples</title>
+    <!-- importa o css do bootstrap para estilização -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- importa o arquivo CSS personalizado -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- barra de navegação -->
+    <nav>
+        <div class="nav-center">
+            <!-- título centralizado dentro da navegação -->
+            <h4><strong>Trocador de Cor</strong></h4>
+            <!-- lista de links de navegação -->
+            <ul class="nav-links">
+                <li>
+                    <!-- link para a página inicial -->
+                    <a href="../index.html">Simple</a>
+                </li>
+                <li>
+                    <!-- link para a página hex -->
+                    <a href="hex.html">Hex</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <!-- contêiner principal para o conteúdo -->
+        <div class="container">
+            <!-- exibição da cor de fundo -->
+            <h2 class="text-center">Cor de fundo : <br> <span class="color">
+                    #F1F5F8
+                </span></h2>
+                <!-- botão centralizado para alterar a cor -->
+                <div class="d-flex justify-content-center align-items-center">
+                    <button class="btn btn-hero" id="btn">Clique aqui</button>
+                </div>
+        </div>
+    </main>
+    <!-- inclui o script js para funcionalidade da página -->
+    <script src="../js/hex.js"></script>
+</body>
+
+</html>
