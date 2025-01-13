@@ -6,10 +6,18 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background: #0c1f33;
-    color: #fff;
     line-height: 1.5;
     font-size: 0.875rem;
+}
+
+.simple {
+    background: #60b550;
+    color: #fff;
+}
+
+.hex {
+    background-color: #FF69B4;
+    color: #fff;
 }
 
 a {
